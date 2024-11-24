@@ -63,7 +63,7 @@ app.post("/failure", function(req,res) {
 })
 
 
-app.listen(80, function() {
+app.listen(8080 || 80, function() {
     console.log("Server is running on port 3000");
 });
 
